@@ -74,14 +74,16 @@ h1, h3, p {
 }
 
 .name {
-  font-size: 20px;
+  font-size: 30px;
   color: teal;
-  font-family: "Monaco", "Courier New", monospace;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  
 }
 
 .elevatorpitch {
   font-size: 16px;
-  font-family: "Monaco", "Courier New", monospace;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*
@@ -94,7 +96,10 @@ h1, h3, p {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
-  color: teal;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background: teal;
+  color: white;
 }
 
 .btn-CV {
