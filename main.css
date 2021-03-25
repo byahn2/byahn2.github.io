@@ -86,6 +86,12 @@ h1, h3, p {
   font-family: "Times New Roman", Times, serif;
 }
 
+.field {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
 /*
   ========================================
   Buttons
@@ -98,7 +104,7 @@ h1, h3, p {
   margin: 0;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
-  background: teal;
+  background-color: teal;
   color: white;
 }
 
