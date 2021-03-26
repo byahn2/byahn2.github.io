@@ -60,6 +60,13 @@ table {
           box-sizing: border-box;
 }
 
+.name {
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 960px;
+}
+
 .elevatorpitch {
   margin: 0 auto;
   padding-left: 30px;
@@ -73,6 +80,14 @@ table {
   padding-right: 30px;
   width: 960px;
 }
+
+.resources {
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 960px;
+}
+
 
 
 /* formatting */
