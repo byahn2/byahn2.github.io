@@ -88,15 +88,14 @@ table {
   width: 960px;
 }
 
-
-
-/* formatting */
 h1, h3, p {
   margin-bottom: 22px;
 }
 
+/* formatting */
+
 .name {
-  font-size: 30px;
+  font-size: 40px;
   color: teal;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -104,12 +103,17 @@ h1, h3, p {
 }
 
 .elevatorpitch {
-  font-size: 16px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.credentials {
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .test {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: teal;
