@@ -130,8 +130,32 @@ h1, h3, p {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  text-align: center;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   background-color: teal;
   color: white;
 }
+.btn:link {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: teal;
+  color: white;
+}
+
+.btn:visited {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: teal;
+  color: cyan;
+}
+
+.btn:hover, btn:active {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: light-blue;
+  color: white;
+}
+
+
+
