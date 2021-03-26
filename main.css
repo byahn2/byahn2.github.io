@@ -75,6 +75,12 @@ table {
   width: 960px;
 }
 
+.profile {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .credentials {
   margin: 0 auto;
   padding-left: 10px;
@@ -160,5 +166,8 @@ h1, h3, p {
   color: white;
 }
 
+img {
+  float: left;
+}
 
 
