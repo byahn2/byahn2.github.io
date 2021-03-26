@@ -86,10 +86,11 @@ h1, h3, p {
   font-family: "Times New Roman", Times, serif;
 }
 
-.field {
+.test {
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  color: teal;
 }
 
 /*
