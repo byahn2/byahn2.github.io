@@ -62,29 +62,30 @@ table {
 
 .name {
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 960px;
 }
 
 .elevatorpitch {
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 960px;
 }
 
 .credentials {
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 960px;
 }
 
 .resources {
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 960px;
 }
 
