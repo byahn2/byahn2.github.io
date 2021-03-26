@@ -68,17 +68,17 @@ table {
   width: 960px;
 }
 
+.profile {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .elevatorpitch {
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
   width: 960px;
-}
-
-.profile {
-  margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .credentials {
