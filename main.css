@@ -77,35 +77,27 @@ table {
   display: inline-block;
   margin: 10% auto;
   width: 60%;
-  border: 5% solid #A4F3AE; 
+  border: 5px solid #A4F3AE; 
 }
 
 .elevatorpitch {
-  border: 5% solid teal; 
+  border: 5px solid teal; 
   margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .credentials {
-  border: 5% solid teal; 
+  border: 5px solid teal; 
   margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .resources {
   margin: 1.5% auto;
   width: 100%;
-  border: 5% solid #A4F3AE; 
+  border: 5px solid #A4F3AE; 
 }
 
 h1, h3, p {
-  margin-bottom: 2%
+  margin-bottom: 2%;
 }
 
 /* formatting */
@@ -118,8 +110,9 @@ html {
 }
 
 .name {
-  font-size: 50px;
-  color: #7AC583;
+  font-size: 60px;
+  background-color: #7AC583;
+  color:white;
   font-weight: 500;
   text-align: center;
 }
@@ -148,27 +141,27 @@ html {
 
 .btn {
   display: block;
-  width: 100%;
+  width: 50%;
   margin: 1.5% auto;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
   background-color: #7AC583;
   color: white;
-  border: 5% solid red; 
+  border: 5px solid red; 
  }
 
 .btn:link, .btn:visited {
   font-size: 30px;
   background-color: #7AC583;
   color: white;
-  border: 5% solid red; 
+  border: 5px solid red; 
 }
 
 .btn:hover, .btn:active{
   font-size: 35px;
   background-color: #A4F3AE;
-  border: 5% solid blue; 
+  border: 5px solid blue; 
   color: white;
 }
 
