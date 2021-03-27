@@ -65,10 +65,11 @@ table {
 }
 
 .elevatorpitch {
+  width: 70%
   margin: 1.5% 1.5% 5% 5%;
 }
 
-#ppic {
+.prof {
   display: block;
   float: left;
   width: 40%;
@@ -81,7 +82,7 @@ table {
   display: block;
   margin-top: 0;
   padding: 1%;
-  width: 65%; 
+  width: 90%; 
 }
 
 .credentials {
