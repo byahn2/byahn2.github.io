@@ -98,37 +98,11 @@ h1, h3, p {
   margin-bottom: 1..5%
 }
 
-/*
-  ========================================
-  Clearfix
-  ========================================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
+section {
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 40%;
 }
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-
-.profile {
-  float: left;
-}
-
-.elevatorpitch {
-  float: right;
-}
-
-.credentials {
-  float: right;
-}
-
-
 
 /* formatting */
 
