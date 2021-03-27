@@ -64,6 +64,11 @@ table {
   width: 100%;
 }
 
+.elevatorpitch {
+  margin-bottom: 1.5%;
+  margin-left: 2%;
+}
+
 .prof {
   display: inline-block;
   width: 30%;
@@ -83,10 +88,6 @@ table {
   margin-top: 0;
   padding: 1%;
   width: 65%; 
-}
-
-.elevatorpitch {
-  margin-bottom: 1.5%;
 }
 
 .credentials {
@@ -112,6 +113,13 @@ html {
   color:#7AC583;
   font-weight: 500;
   text-align: center;
+}
+
+.elevatorpitch {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  text-alight: left;
 }
 
 .content {
