@@ -70,7 +70,7 @@ table {
   border: 5% solid red; 
 }
 
-img {
+#ppic {
   width=90%;
   height=auto;
   padding=5%;
@@ -80,7 +80,7 @@ img {
   display: inline-block;
   margin-top: 0;
   padding: 1%;
-  width: 60%; 
+  width: 65%; 
 }
 
 .resources {
