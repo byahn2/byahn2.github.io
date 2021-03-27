@@ -90,6 +90,7 @@ table {
 }
 
 .credentials {
+  width: 60%;
   margin-bottom: 1.5%;
   border: 5px solid #7AC583;
 }
