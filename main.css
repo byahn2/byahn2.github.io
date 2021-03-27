@@ -100,7 +100,7 @@ h1, h3, p {
 section {
   display: inline-block;
   margin: 0 1.5%;
-  width: 40%;
+  width: 100%;
 }
 
 /* formatting */
