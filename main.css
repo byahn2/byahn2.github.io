@@ -63,7 +63,7 @@ table {
 .name {
   margin: 0 auto;
   padding: 10px;
-  width: 960px;
+  width: 30%;
 }
 
 .profile {
@@ -73,29 +73,29 @@ table {
 }
 
 .elevatorpitch {
-  margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 960px;
+  margin: 1.5% auto;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 50%;
 }
 
 .credentials {
-  margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 960px;
+  margin: 1.5% auto;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 50%;
 }
 
 .resources {
   clear: both;
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 960px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 50%;
 }
 
 h1, h3, p {
-  margin-bottom: 22px;
+  margin-bottom: 1..5%
 }
 
 /*
@@ -175,26 +175,5 @@ h1, h3, p {
   border-top, border-bottom: 4px solid teal;
   border-left, border-right: 12px solid teal;
  }
-
-.btn:link {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  background-color: teal;
-  color: white;
-}
-
-.btn:visited {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  background-color: teal;
-  color: cyan;
-}
-
-.btn:hover, btn:active {
-  font-size: 25px;
-  font-family: "Times New Roman", Times, serif;
-  background-color: light-blue;
-  color: white;
-}
 
 
