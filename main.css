@@ -68,12 +68,6 @@ table {
   margin: 1.5% 5%;
 }
 
-.prof {
-  display: inline-block;
-  width: 30%;
-  border: 5% solid red; 
-}
-
 #ppic {
   display: block;
   width: 85%;
@@ -84,7 +78,7 @@ table {
 }
 
 .content {
-  display: inline-block;
+  display: block;
   margin-top: 0;
   padding: 1%;
   width: 65%; 
@@ -147,7 +141,7 @@ html {
 */
 
 .btn {
-  display: block;
+  display: inline-block;
   width: 50%;
   margin: 1% auto;
   text-align: center;
