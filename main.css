@@ -104,7 +104,7 @@ html {
 
 .name {
   font-size: 50px;
-  color: teal;
+  color: #7AC583;
   font-weight: bold;
   text-align: center;
 }
@@ -115,13 +115,13 @@ html {
 
 #emailaddress {
   fontsize: 18px;
-  color: teal
+  color: #7AC583;
 }
 
 .test {
   font-size: 20px;
   font-weight: bold;
-  color: teal;
+  color: #7AC583;
 }
 
 /*
@@ -132,13 +132,27 @@ html {
 
 .btn {
   width: 20%;
-  border: 20% 40% solid teal;
+  border: 20% 40% solid #7AC583;
   border-radius: 5px;
   margin: 1.5% auto;
   text-align: center;
   font-size: 30px;
-  background-color: teal;
+  background-color: #7AC583;
   color: white;
  }
+
+.btn:link, .btn:visited {
+  font-size: 30px;
+  background-color: #7AC583;
+  color: white;
+  border: #7AC583;
+}
+
+.btn:hover, .btn:active{
+  font-size: 35px;
+  background-color: #A4F3AE;
+  border: #A4F3AE;
+  color: white;
+}
 
 
