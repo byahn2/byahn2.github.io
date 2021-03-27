@@ -137,6 +137,7 @@ section {
 */
 
 .btn {
+  border: 20%;
   border-radius: 5px;
   display: inline-block;
   margin-bottom: 22px;
