@@ -70,47 +70,53 @@ table {
   padding-left: 10px;
   padding-right: 10px;
   width: 30%;
+  border: 5% solid #A4F3AE; 
 }
 
 .content {
   display: inline-block;
-  margin: auto;
+  margin: 10% auto;
   width: 60%;
+  border: 5% solid #A4F3AE; 
 }
 
 .elevatorpitch {
-  width: 100%;
-  margin-bottom: 1.5%;
+ border: 5% solid teal; 
 }
 
 .credentials {
-  width: 100%;
+ border: 5% solid teal; 
 }
 
 .resources {
   margin: 1.5% auto;
   width: 100%;
+  border: 5% solid #A4F3AE; 
 }
 
 h1, h3, p {
-  margin-bottom: 1.5%
+  margin-bottom: 2%
 }
 
 /* formatting */
-
+@font-face {
+  font-family: "";
+  src: 
+}
 html {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: 'Montserrat', 'Verenda', Arial, sans-serif;
 }
 
 .name {
   font-size: 50px;
   color: #7AC583;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
 }
 
 .content {
   font-size: 18px;
+  font-weight: 300;
 }
 
 #emailaddress {
@@ -120,7 +126,7 @@ html {
 
 .test {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 400;
   color: #7AC583;
 }
 
@@ -131,28 +137,28 @@ html {
 */
 
 .btn {
-  width: 20%;
-  border: 20% 40% solid #7AC583;
-  border-radius: 5%;
+  display: block;
+  width: 100%;
   margin: 1.5% auto;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
   background-color: #7AC583;
   color: white;
+  border: 5% solid red; 
  }
 
 .btn:link, .btn:visited {
   font-size: 30px;
   background-color: #7AC583;
   color: white;
-  border: #7AC583;
+  border: 5% solid red; 
 }
 
 .btn:hover, .btn:active{
   font-size: 35px;
   background-color: #A4F3AE;
-  border: #A4F3AE;
+  border: 5% solid blue; 
   color: white;
 }
 
