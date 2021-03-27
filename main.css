@@ -64,20 +64,20 @@ table {
   width: 100%;
 }
 
-.name {
-  font-size: 50px;
-  color: teal;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  text-align: center;
-}
-
 .profile {
   display: inline-block;
   margin: 1.5% auto;
   padding-left: 10px;
   padding-right: 10px;
   width: 30%;
+}
+
+.name {
+  font-size: 50px;
+  color: teal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .content {
