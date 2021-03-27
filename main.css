@@ -70,11 +70,13 @@ table {
   border: 5% solid red; 
 }
 
+/*
 #ppic {
   width: 85%;
   height: auto;
   padding: 5%;
 }
+*/
 
 .content {
   display: inline-block;
