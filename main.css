@@ -66,7 +66,7 @@ table {
 
 .profile {
   display: inline-block;
-  margin: 1.5% auto;
+  margin: auto;
   padding-left: 10px;
   padding-right: 10px;
   width: 30%;
@@ -74,16 +74,16 @@ table {
 
 .content {
   display: inline-block;
+  margin: auto;
   width: 60%;
 }
 
 .elevatorpitch {
-  margin: 1.5% auto;
   width: 100%;
+  margin-bottom: 1.5%;
 }
 
 .credentials {
-  margin: 1.5% auto;
   width: 100%;
 }
 
@@ -133,10 +133,11 @@ html {
 .btn {
   width: 20%;
   border: 20% 40% solid #7AC583;
-  border-radius: 5px;
+  border-radius: 5%;
   margin: 1.5% auto;
   text-align: center;
   font-size: 30px;
+  text-decoration: none;
   background-color: #7AC583;
   color: white;
  }
