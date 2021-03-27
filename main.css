@@ -98,6 +98,38 @@ h1, h3, p {
   margin-bottom: 22px;
 }
 
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.profile {
+  float: left;
+}
+
+.elevatorpitch {
+  float: right;
+}
+
+.credentials {
+  float: right;
+}
+
+
+
 /* formatting */
 
 .name {
@@ -163,10 +195,6 @@ h1, h3, p {
   font-family: "Times New Roman", Times, serif;
   background-color: light-blue;
   color: white;
-}
-
-img {
-  float: left;
 }
 
 
