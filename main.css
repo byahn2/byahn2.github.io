@@ -66,16 +66,20 @@ table {
 
 .profile {
   display: inline-block;
-  margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 30%;
   border: 5% solid red; 
 }
 
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content {
   display: inline-block;
-  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
   width: 60%;
   border: 5px solid red; 
 }
@@ -118,6 +122,7 @@ html {
 #emailaddress {
   fontsize: 18px;
   color: #7AC583;
+  font-weight: 400;
 }
 
 .test {
