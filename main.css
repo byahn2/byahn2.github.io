@@ -98,11 +98,6 @@ h1, h3, p {
   margin-bottom: 2%;
 }
 
-/* formatting */
-@font-face {
-  font-family: "";
-  src: 
-}
 html {
   font-family: 'Montserrat', 'Verenda', Arial, sans-serif;
 }
@@ -140,7 +135,7 @@ html {
 .btn {
   display: block;
   width: 50%;
-  margin: 1.5% auto;
+  margin: 1% auto;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
