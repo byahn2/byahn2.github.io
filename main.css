@@ -75,13 +75,13 @@ table {
   border: 5% solid red; 
 }
 
-/*
 #ppic {
+  display: block;
   width: 85%;
   height: auto;
   padding: 5%;
+  vertical-align: top;
 }
-*/
 
 .content {
   display: inline-block;
