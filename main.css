@@ -64,14 +64,14 @@ table {
   width: 100%;
 }
 
-.profile {
+.prof {
   display: inline-block;
   width: 30%;
   border: 5% solid red; 
 }
 
 #ppic {
-  width: 90%;
+  width: 85%;
   height: auto;
   padding: 5%;
 }
@@ -81,6 +81,14 @@ table {
   margin-top: 0;
   padding: 1%;
   width: 65%; 
+}
+
+.elevatorpitch {
+  margin-bottom: 1.5%;
+}
+
+.credentials {
+  margin-bottom: 1.5%;
 }
 
 .resources {
