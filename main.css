@@ -68,8 +68,6 @@ table {
 .profile {
   display: inline-block;
   margin: 1.5% auto;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 30%;
 }
 
@@ -88,7 +86,6 @@ table {
 }
 
 .resources {
-  clear: both;
   margin: 1.5% auto;
   width: 100%;
 }
@@ -137,17 +134,14 @@ h1, h3, p {
 */
 
 .btn {
-  border: 20% 80% teal;
+  border: 20% 80% solid teal;
   border-radius: 5px;
-  display: inline-block;
   margin: 1.5% auto;
   text-align: center;
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   background-color: teal;
   color: white;
-  border-top, border-bottom: 4px solid teal;
-  border-left, border-right: 12px solid teal;
  }
 
 
