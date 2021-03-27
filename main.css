@@ -76,25 +76,14 @@ img {
 
 .content {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
   width: 60%;
   border: 5px solid red; 
 }
 
-.elevatorpitch {
-  border: 5px solid teal; 
-}
-
-.credentials {
-  border: 5px solid teal; 
-}
-
 .resources {
   margin: 1.5% auto;
   width: 100%;
-  border: 5px solid #A4F3AE; 
 }
 
 p {
@@ -144,20 +133,21 @@ html {
   text-decoration: none;
   background-color: #7AC583;
   color: white;
-  border: 5px solid red; 
+  border: 5px solid #7AC583; 
+  border-radius: 5px;
  }
 
 .btn:link, .btn:visited {
   font-size: 30px;
   background-color: #7AC583;
   color: white;
-  border: 5px solid red; 
+  border: 5px solid #7AC583;
 }
 
 .btn:hover, .btn:active{
   font-size: 35px;
   background-color: #A4F3AE;
-  border: 5px solid blue; 
+  border: 5px solid #A4F3AE; 
   color: white;
 }
 
