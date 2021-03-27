@@ -65,17 +65,17 @@ table {
   width: 100%;
 }
 
-section {
-  display: inline-block;
-  margin: auto;
-  width: 45%;
-}
-
 .profile {
+  display: inline-block;
   margin: 1.5% auto;
   padding-left: 10px;
   padding-right: 10px;
+  width: 30%;
 }
+
+.content {
+  display: inline-block;
+  width: 60%;
 
 .elevatorpitch {
   margin: 1.5% auto;
@@ -100,7 +100,7 @@ h1, h3, p {
 /* formatting */
 
 .name {
-  font-size: 40px;
+  font-size: 50px;
   color: teal;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
