@@ -79,8 +79,9 @@ table {
   display: block;
   width: 85%;
   height: auto;
-  padding: 5%;
   vertical-align: top;
+  float: left;
+  padding: 3%;
 }
 
 .content {
