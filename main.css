@@ -75,14 +75,14 @@ table {
   margin: 1.5% auto;
   padding-left: 1.5%;
   padding-right: 1.5%;
-  width: 50%;
+  width: 100%;
 }
 
 .credentials {
   margin: 1.5% auto;
   padding-left: 1.5%;
   padding-right: 1.5%;
-  width: 50%;
+  width: 100
 }
 
 .resources {
@@ -90,7 +90,7 @@ table {
   margin: 0 auto;
   padding-left: 1.5%;
   padding-right: 1.5%;
-  width: 50%;
+  width: 100%;
 }
 
 h1, h3, p {
@@ -100,7 +100,7 @@ h1, h3, p {
 section {
   display: inline-block;
   margin: 0 1.5%;
-  width: 100%;
+  width: 40%;
 }
 
 /* formatting */
