@@ -65,15 +65,15 @@ table {
 }
 
 .elevatorpitch {
-  margin: 1.5% 5%;
+  margin: 1.5% 1.5% 5% 5%;
 }
 
 #ppic {
   display: block;
-  width: 85%;
+  float: left;
+  width: 30%;
   height: auto;
   vertical-align: top;
-  float: left;
   padding: 3%;
 }
 
