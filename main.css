@@ -70,14 +70,14 @@ table {
   padding-left: 10px;
   padding-right: 10px;
   width: 30%;
-  border: 5% solid #A4F3AE; 
+  border: 5% solid red; 
 }
 
 .content {
   display: inline-block;
-  margin: 10% auto;
+  margin: 2%;
   width: 60%;
-  border: 5px solid #A4F3AE; 
+  border: 5px solid red; 
 }
 
 .elevatorpitch {
