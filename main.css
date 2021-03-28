@@ -63,15 +63,16 @@ table {
 .name {
   width: 70%;
   padding: 2%;
-  margin: 1% auto;
+  margin: 0 auto;
+  margin-top: 1%;
   border: 5px solid #7AC583;
 }
 
 .elevatorpitch {
   width: 70%;
   padding: 1%;
-  margin: 0 auto;
-  margin-bottom: 1%
+  margin: 1% auto;
+  margin-bottom: 1%;
   border: 5px solid #7AC583;
 }
 
@@ -100,11 +101,7 @@ table {
   display: inline-block;
   width: 66%;
   margin-left: 1%;
-  vertical-align: text-top;
-}
-
-h3 p {
-  margin-bottom: 2%;
+  margin-top: 0;
 }
 
 html {
