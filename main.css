@@ -70,7 +70,8 @@ table {
 .elevatorpitch {
   width: 70%;
   padding: 1%;
-  margin: 0 1% auto auto;
+  margin: 0 auto;
+  margin-bottom: 1%
   border: 5px solid #7AC583;
 }
 
@@ -97,8 +98,8 @@ table {
 
 .credentials {
   display: inline-block;
-  width: 70%;
-  margin: 1.5%;
+  width: 66%;
+  margin-left: 1%;
   vertical-align: top;
 }
 
