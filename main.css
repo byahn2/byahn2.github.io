@@ -83,6 +83,7 @@ table {
 }
 
 .headshot {
+  display: inline-block;
   width: 30%;
 }
 
@@ -94,6 +95,7 @@ table {
 }
 
 .credentials {
+  display: inline-block;
   width: 50%;
   margin-bottom: 1.5%;
   border: 5px solid #7AC583;
