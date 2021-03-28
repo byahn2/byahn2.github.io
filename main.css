@@ -100,7 +100,7 @@ table {
   display: inline-block;
   width: 66%;
   margin-left: 1%;
-  vertical-align: top;
+  vertical-align: text-top;
 }
 
 h3 p {
