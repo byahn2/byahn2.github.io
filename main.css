@@ -98,7 +98,7 @@ table {
   display: inline-block;
   width: 50%;
   margin-bottom: 1.5%;
-  border: 5px solid #7AC583;
+  border: 5px solid red;
 }
 
 h3 p {
