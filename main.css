@@ -88,6 +88,7 @@ table {
 .headshot {
   display: inline-block;
   width: 30%;
+  vertical-align: center;
 }
 
 .prof img {
@@ -95,14 +96,14 @@ table {
   max-width: 100%;
   max-height: 100%;
   float: left;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 .credentials {
   display: inline-block;
   width: 66%;
   margin-left: 1%;
-  margin-top: 0;
+  vertical-align: center;
 }
 
 html {
