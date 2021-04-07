@@ -5,9 +5,37 @@
     <title>Select Projects</title>
   </head>
   <body>
-    <h1>
-      Below is a list of selected projects with brief descriptions.
-    </h1>
-    <a class="btn" href="https://github.com/byahn2"> Github </a>
+    <header>
+      <h1>
+        Below is a list of selected projects with brief descriptions. For more projects and details, please visit my     
+        <a class="btn" href="https://github.com/byahn2"> Github </a>
+      </h1>
+    </header>
+    <section class="checkers">
+      <h1>
+        AI Checkers (2019)
+      </h1>
+      <p>
+        Description: For this project, I created an AI to play Checkers against a human opponent using state space search and the heuristic minimax algorithm.
+        The game is printed in the console where the human player makes a move by typing the start and ending locations of a piece. The new board is printed after each move.
+        The program keeps track of the state of the game including the location of each piece, which player each piece belongs to, which pieces are kings and pawns, and which player's turn it is.
+        The AI checks all possible actions and makes a queue of possible states resulting from these actions.  It checks if the current state is a terminal state and checks the utility of the terminal state.
+        It then uses the heuristic minimax algorithm with a cutoff to determine the move the yields the highest utility. (if draw: utility = 0, if computer wins utility = 1, if human wins, utility = -1)
+        The heuristic involves a weighted difference of the computer's pieces eand the person's pieces.
+        The game runs until someone wins or there is a tie.  I'm not particularly good at checkers, but the AI never loses. <br>
+        
+        Interesting results or findings: There weren't necessarily interesting "results" for this project, but it was enjoyable and gratifying.  
+        The one issue was that I'm not particularly familiar with checkers.  
+        The only points I lost for this assignment were because I designed my game with 2 rows of pawns instead of 3 because I thought that the board was supposed to look like chess. <br>
+        
+        Challenges: The most difficult part of this project was checking for all possible actions.  For the assignment, a chip must make the longest possible series of captures available.
+        When searching for possible moves, I had to keep track of the longest series of captures and clear the queue if I found one that was longer.  Checking all the possible moves took
+        required me to very abstractly conceptualize the board and to think through all possible scenarios.<br>
+        
+        Skills: Object oriented programming, Heuristic Minimax Algorithm, Learning a new programming language (this was my first project in Python!) <br>
+        
+        Code: <a href="https://github.com/byahn2/AI_Checkers"> AI Checkers Github </a>
+      </p>
+    </section>
   </body>
 </html>
