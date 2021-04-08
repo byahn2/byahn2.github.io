@@ -65,7 +65,7 @@ header {
   width: 80%;
   margin: 1% auto;
   padding: 1%;
-  border: 5px solid blue;
+  border: 5px solid #7AC583;
 }
 
 section {
@@ -73,16 +73,52 @@ section {
   width: 80%;
   margin: 1% auto;
   padding 1%;
-  border: 5px solid blue;
+  border: 5px solid #7AC583;
+}
+
+html {
+  font-family: 'Montserrat', 'Verenda', Arial, sans-serif;
 }
 
 h1 {
-  fonst-size: 30px;
-  line-height: 40px;
-  font-weight: bold;
+  fonst-size: 40px;
+  line-height: 45px;
+  font-weight: 500;
 }
 
 p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  text-algin: left;
+}
+
+.fieldname {
+  font-weight: 400;
+  color: #7AC583;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #7AC583;
+  color: white;
+  border: 5px solid #7AC583; 
+  border-radius: 5px;
+ }
+
+.btn:link, .btn:visited {
+  font-size: 20px;
+  background-color: #7AC583;
+  color: white;
+  border: 5px solid #7AC583;
+}
+
+.btn:hover, .btn:active{
+  font-size: 25px;
+  background-color: #A4F3AE;
+  border: 5px solid #A4F3AE; 
+  color: white;
 }
