@@ -19,15 +19,27 @@
         MAGIC Data Mining (2020)
       </h1>
       <p>
-        <span class="fieldname"> Description: </span>  <br> <br>
+        <span class="fieldname"> Description: </span> I collaborated with a partner to create and compare two models that classify the MAGIC Gamma Telescope (MAGIC) dataset from the UCI Machine Learning Repository.
+        The telescope records partical showers which are caused by high-energy gamma rays or by hadron rays.  The goal is to classify the telescope's representation of the shower as either gamma or hadron caused.
+        We first visualized our data to look for correlating variables and the underlying distributions of our variables.  
+        We then preprocessed the data including normalizing attributes and splitting the data into a test set and training set.
+        We chose to build a Naive Bayes model as our baseline, and then went on to use a Support Vector Machine.
+        Model performance was evaluated using the area under the ROC curve.
+        The dataset is <br> <br>
         
-        <span class="fieldname"> Interesting results or findings: </span> <br> <br>
+        <span class="fieldname"> Interesting results or findings: The Naive Bayes model had an area under the ROC curve of 0.78 (with 1 being a perfect classification).
+        The Support Vector Machine model had an area under the ROC curve of 0.92.  
+        We believe that the SVM was the better model in this case because Naive Bayes assumes that variables are independent, whereas our dataset showed some correlated variables.
+        SVM on the otherhand does not assume independence adn works well in high dimensions. </span> <br> <br>
         
-        <span class="fieldname"> Challenges: </span> <br> <br>
+        <span class="fieldname"> Challenges: </span> One point of confusion was that more advanced pre-processing methods seemed to decrease performance.  
+        We are still not entirely sure why this would be, but it may show that sometimes manipulating the data too much may interfere with the model's ability to work with the data. <br> <br>
         
-        <span class="fieldname">  Skills: </span> <br> <br>
+        <span class="fieldname">  Skills: </span> Sueprvised Machine Learning, Classification, Predictive Modeling, Naive Bayes, Support Vector Machines, Sci-Kit Learn, Pandas, Jupyter notebook <br> <br>
         
         <span class="fieldname">  Code: </span> <a class="btn" href="https://github.com/byahn2/MagicDatamining"> Magic Datamining GitHub </a>
+        
+        <span class="fieldname"> Writeup: </span> <a class="btn" href="https://github.com/byahn2/MagicDatamining/blob/main/Magic_Classification%20(1).pdf"> Magic Datamining Writeup </a>
       </p>
     </section>
     <section class="xu">
@@ -51,7 +63,7 @@
         AI Checkers (2019)
       </h1>
       <p>
-        <span class="fieldname">  Description: </span> For this project, I created an AI to play Checkers against a human opponent using state space search and the heuristic minimax algorithm.
+        <span class="fieldname">  Description: </span> I created an AI to play Checkers against a human opponent using state space search and the heuristic minimax algorithm.
         The game is printed in the console where the human player makes a move by typing the start and ending locations of a piece. The new board is printed after each move.
         The program keeps track of the state of the game including the location of each piece, which player each piece belongs to, which pieces are kings and pawns, and which player's turn it is.
         The AI checks all possible actions and makes a queue of possible states resulting from these actions.  It checks if the current state is a terminal state and checks the utility of the terminal state.
