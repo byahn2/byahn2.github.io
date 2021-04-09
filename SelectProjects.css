@@ -89,7 +89,7 @@ h1 {
 header {
   font-size: 30px;
   line-height: 35px;
-  fon-weight: 500;
+  font-weight: 500;
 }
 
 p {
@@ -102,6 +102,23 @@ p {
 .fieldname {
   font-weight: 400;
   color: #7AC583;
+}
+
+.gitlink {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #7AC583;
+}
+
+.gitlink:link, .gitlink:visited {
+  font-size: 30px;
+}
+
+.gitlink:hover, .gitlink:active{
+  font-size: 35px;
 }
 
 .btn {
