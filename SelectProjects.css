@@ -65,6 +65,8 @@ header {
   width: 80%;
   margin: 1% auto;
   padding: 1%;
+  background-color: #7AC583;
+  color: white;
   border: 5px solid #7AC583;
 }
 
@@ -81,14 +83,20 @@ html {
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 50px;
+  line-height: 55px;
   font-weight: 500;
 }
 
 h2 {
-  fonst-size: 40px;
+  font-size: 40px;
   line-height: 45px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 35px;
   font-weight: 500;
 }
 
