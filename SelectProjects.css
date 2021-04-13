@@ -73,6 +73,7 @@ header {
 section {
   display: block;
   width: 80%;
+  height: 60%;
   margin: 1% auto;
   padding: 1%;
   border: 5px solid #7AC583;
