@@ -78,6 +78,26 @@ section {
   border: 5px solid #7AC583;
 }
 
+.photo {
+  display: inline-block;
+  width: 20%;
+}
+
+.picture img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+  vertical-align: center;
+}
+
+.description {
+  display: inline-block;
+  width: 75%;
+  margin-left: 1%;
+  float: right;
+}
+
 html {
   font-family: 'Montserrat', 'Verenda', Arial, sans-serif;
 }
