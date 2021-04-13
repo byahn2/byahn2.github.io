@@ -86,7 +86,6 @@ section {
   width: 80%;
   margin: 1% auto;
   padding: 1%;
-  border: 5px solid #7AC583;
 }
 
 .photo {
@@ -126,13 +125,13 @@ h1 {
 
 h2 {
   font-size: 30px;
-  line-height: 35px;
+  line-height: 50px;
   font-weight: 400;
 }
 
 p {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
   font-weight: 300;
   text-algin: left;
 }
