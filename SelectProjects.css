@@ -70,12 +70,21 @@ header {
   border: 5px solid #7AC583;
 }
 
-section {
+section:before,
+section:after {
   display: block;
   width: 80%;
   margin: 1% auto;
   padding: 1%;
   border: 5px solid #7AC583;
+}
+
+section:after{
+  clear:both;
+}
+section {
+  clear: both;
+  *zoom:1;
 }
 
 .photo {
