@@ -69,7 +69,7 @@
           The Naive Bayes model had an area under the ROC curve of 0.78 (with 1 being a perfect classification).
           The Support Vector Machine model had an area under the ROC curve of 0.92.  
           We believe that the SVM was the better model in this case because Naive Bayes assumes that variables are independent, whereas our dataset showed some correlated variables.
-          SVM on the otherhand does not assume independence adn works well in high dimensions. <br> <br>
+          SVM on the otherhand does not assume independence ann works well in high dimensions. <br> <br>
 
           <span class="fieldname"> Challenges: </span> 
           One point of confusion was that more advanced pre-processing methods seemed to decrease performance.  
@@ -96,12 +96,12 @@
       <div class="description">
         <p>
           <span class="fieldname">  Description: </span> 
-          In Summer of 2020, I did a research fellowship with the Xu Lab at University of Rochester.  
+          In Summer of 2020, I did a research fellowship with the Xu Machine Vision Lab at University of Rochester.  
           I designed and implemented a machine vision pipeline for locating multiple objects in an image described by an input sentence.
           The input is an image and a sentence describing one or more objects in the image.
           The output is a set of bounding boxes around the target objects.
           Visual grounding has been done for single targets, but not yet for multiple targets.
-          I generated a new synthetic data set with mutliple targets and modified the Language-Conditioned Graph Network (LCGN) by Hu et al 2019 to do visual grounding for multiple insstances instead of just one.
+          I generated a new synthetic data set with mutliple targets and modified the Language-Conditioned Graph Network (LCGN) by Hu et al 2019 to do visual grounding for multiple instances instead of just one.
           I then designed an implemented a new approach that looked at sets of items holistically instead of evaluating each item separately.
           At the end of the summer, I presented my work to the CS faculty at University of Rochester.
           <br> <br>
@@ -114,9 +114,9 @@
 
           <span class="fieldname"> Challenges: </span> 
           The biggest challenge was learning how to use vectorization to optimize code runtime.  It took some time and effort to learn how to conceptualize tensors
-          with seven or eight variables and avoid using for-loops.<br>  
+          with seven or eight variables and avoid using for-loops.
           Another issue I ran into was that my data was unbalanced so there were far more ground truth negatives than positives.  
-          I had to adjust the weights of the loss function and modify the evaluation metric to account for the imbalance. <br>
+          I had to adjust the weights of the loss function and modify the evaluation metric to account for the imbalance.
           <br> <br>
 
           <span class="fieldname">  Skills: </span> 
@@ -143,16 +143,18 @@
         <p>
           <span class="fieldname">  Description: </span> 
           I created an AI to play Checkers against a human opponent using state space search and the heuristic minimax algorithm.
-          The game is printed in the console where the human player makes a move by typing the start and ending locations of a piece. The new board is printed after each move.
+          The game is printed in the console where the human player makes a move by typing the start and ending locations of a piece. 
+          The new board is printed after each move.
           The program keeps track of the state of the game including the location of each piece, which player each piece belongs to, which pieces are kings and pawns, and which player's turn it is.
-          The AI checks all possible actions and makes a queue of possible states resulting from these actions.  It checks if the current state is a terminal state and checks the utility of the terminal state.
+          The AI checks all possible actions and makes a queue of possible states resulting from these actions.  
+          It checks if the current state is a terminal state and checks the utility of the terminal state.
           It then uses the heuristic minimax algorithm with a cutoff to determine the move the yields the highest utility. (if draw: utility = 0, if computer wins utility = 1, if human wins, utility = -1)
           The heuristic involves a weighted difference of the computer's pieces eand the person's pieces.
           The game runs until someone wins or there is a tie.  I'm not particularly good at checkers, but the AI never loses. <br> <br>
 
           <span class="fieldname"> Interesting results or findings: </span> 
-          There weren't necessarily interesting "results" for this project, but it was enjoyable and gratifying.  
-          The only points I lost for this assignment were because I thought checkers had two rows of pawns when it in fact has three. <br> <br>
+          There weren't necessarily interesting "results" for this project, but it was enjoyable, gratifying, and fun to play.  
+          <br> <br>
 
           <span class="fieldname">  Challenges: </span> 
           The most difficult part of this project was checking for all possible actions.  For the assignment, a chip must make the longest possible series of captures available.
