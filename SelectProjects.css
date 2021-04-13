@@ -97,6 +97,7 @@ section {
   margin-left: 1%;
   float: right;
   border: 5px solid #7AC583;
+  vertical-align: top;
 }
 
 html {
