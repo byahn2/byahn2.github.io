@@ -24,127 +24,146 @@
       <a class="projlink" href="#checkers"> Checkers (2019) </a>
       <a class="projlink" href="#mlef"> Topics Modeling and Data Visualization (2021) </a>
     </section>
+        <section id="mlef">
+      <h2>
+        Summer 2021 Internship: Topic Modeling of Energy Storage Literature
+      </h2>
+      <div class="photo">
+        <img src="plant.jpg" alt="mlef" class="picture" style='height: 100%; width: 100%; object-fit: contain'>
+      </div>
+      <div class="description">
+        <p>
+          <span class="fieldname"> Description: </span> 
+          This summer, I will be doing a data science internship with the Department of Energy under the Mickey Leland Energy Fellowship.
+          The objective is to create a useful tool for exploring scientific literature on renewable energy storage.
+          I will be working with unsupervised natural language processing algorithms to extract paper topics and group them.
+          Then I will work on building a website for visualizing the results that harness the human visual system to make it easier to see research trends and locate interesting or relevant papers.
+          Ideally, the tool we create can be generalized to other scientific fields.
+          Check back in August for more updates, or look at the project website below! <br> <br>       
+
+          <span class="fieldname"> Project Website: </span> 
+          <a class="btn" href="https://aspitarl.github.io/projects/1_nlp/"> Topic Modeling of Energy Storage Literature </a>
+
+        </p>
+      </div>
+    </section>
     <section id="magic">
       <h2>
         MAGIC Data Mining (2020)
       </h2>
-      <p>
-        <span class="fieldname"> Description: </span> 
-        I collaborated with a partner to create and compare two models that classify the MAGIC Gamma Telescope (MAGIC) dataset from the UCI Machine Learning Repository.
-        The telescope records partical showers which are caused by high-energy gamma rays or by hadron rays.  The goal is to classify the telescope's representation of the shower as either gamma or hadron caused.
-        We first visualized our data to look for correlating variables and the underlying distributions of our variables.  
-        We then preprocessed the data including normalizing attributes and splitting the data into a test set and training set.
-        We chose to build a Naive Bayes model as our baseline, and then went on to use a Support Vector Machine.
-        Model performance was evaluated using the area under the ROC curve.<br> <br>
-        
-        <span class="fieldname"> Interesting results or findings: </span>  
-        The Naive Bayes model had an area under the ROC curve of 0.78 (with 1 being a perfect classification).
-        The Support Vector Machine model had an area under the ROC curve of 0.92.  
-        We believe that the SVM was the better model in this case because Naive Bayes assumes that variables are independent, whereas our dataset showed some correlated variables.
-        SVM on the otherhand does not assume independence adn works well in high dimensions. <br> <br>
-        
-        <span class="fieldname"> Challenges: </span> 
-        One point of confusion was that more advanced pre-processing methods seemed to decrease performance.  
-        We are still not entirely sure why this would be, but it may show that sometimes manipulating the data too much may interfere with the model's ability to work with the data. <br> <br>
-        
-        <span class="fieldname">  Skills: </span> 
-        Sueprvised Machine Learning, Classification, Predictive Modeling, Naive Bayes, Support Vector Machines, Sci-Kit Learn, Pandas, Jupyter notebook <br> <br>
-        
-        <span class="fieldname">  Code: </span> 
-        <a class="btn" href="https://github.com/byahn2/MagicDatamining"> Magic Datamining GitHub </a> <br><br>
-        
-        <span class="fieldname"> Writeup: </span> 
-        <a class="btn" href="https://github.com/byahn2/MagicDatamining/blob/main/Magic_Classification%20(1).pdf"> Magic Datamining Writeup </a>
-        
-      </p>
+      <div class="photo">
+        <img src="plant.jpg" alt="magic" class="picture" style='height: 100%; width: 100%; object-fit: contain'>
+      </div>
+      <div class="description">
+        <p>
+          <span class="fieldname"> Description: </span> 
+          I collaborated with a partner to create and compare two models that classify the MAGIC Gamma Telescope (MAGIC) dataset.
+          The telescope records partical showers which are caused by high-energy gamma rays or by hadron rays.  
+          The goal is to classify the telescope's numerical representation of the shower as either gamma or hadron caused.
+          We first visualized our data to look for correlating variables and the underlying distributions of our variables.  
+          We then preprocessed the data which involved normalizing attributes and splitting the data into a test set and training set.
+          We chose to build a Naive Bayes model as our baseline, and then went on to use a Support Vector Machine.
+          Model performance was evaluated using the area under the ROC curve.<br> <br>
+
+          <span class="fieldname"> Interesting results or findings: </span>  
+          The Naive Bayes model had an area under the ROC curve of 0.78 (with 1 being a perfect classification).
+          The Support Vector Machine model had an area under the ROC curve of 0.92.  
+          We believe that the SVM was the better model in this case because Naive Bayes assumes that variables are independent, whereas our dataset showed some correlated variables.
+          SVM on the otherhand does not assume independence adn works well in high dimensions. <br> <br>
+
+          <span class="fieldname"> Challenges: </span> 
+          One point of confusion was that more advanced pre-processing methods seemed to decrease performance.  
+          We are still not entirely sure why this would be, but it may show that sometimes manipulating the data too much may interfere with the model's ability to work with the data. <br> <br>
+
+          <span class="fieldname">  Skills: </span> 
+          Sueprvised Machine Learning, Classification, Predictive Modeling, Naive Bayes, Support Vector Machines, Sci-Kit Learn, Pandas, Jupyter notebook <br> <br>
+
+          <span class="fieldname">  Code: </span> 
+          <a class="btn" href="https://github.com/byahn2/MagicDatamining"> Magic Datamining GitHub </a> <br><br>
+
+          <span class="fieldname"> Writeup: </span> 
+          <a class="btn" href="https://github.com/byahn2/MagicDatamining/blob/main/Magic_Classification%20(1).pdf"> Magic Datamining Writeup </a>
+        </p>
+      </div>
     </section>
     <section id="xu">
       <h2>
         Machine Vision Research: Visual Grounding for Multiple Instances (2020)
       </h2>
-      <p>
-        <span class="fieldname">  Description: </span> 
-        In Summer of 2020, I did a research fellowship with the Xu Lab at University of Rochester.  
-        I designed and implemented a machine vision pipeline for locating multiple objects in an image described by an input sentence.
-        The input is an image and a sentence describing one or more objects in the image.
-        The output is a set of bounding boxes around the target objects.
-        Visual grounding has been done for single targets, but not yet for multiple targets.
-        I generated a new synthetic data set with mutliple targets and modified the Language-Conditioned Graph Network (LCGN) by Hu et al 2019 to do visual grounding for multiple insstances instead of just one.
-        I then designed an implemented a new approach that looked at sets of items holistically instead of evaluating each item separately.
-        At the end of the summer, I presented my work to the CS faculty at University of Rochester.
-        <br> <br>
-        
-        <span class="fieldname">  Interesting results or findings: </span> 
-        Our initial model had a top accuracy of 0.829, and a bounding box IOU (50% or greater overlap) accuracy of 66% which is competative with state of the art single instance models.
-        Our second model had a top accuracy of 0.378 and a bounding box IOU accuracy of 0.284.  This model has a different training and testing approach, and we feel the low accuracy might be due to the testing approach
-        which uses beam search to find the most probable sets.  
-        <br> <br>
-        
-        <span class="fieldname"> Challenges: </span> 
-        The biggest challenge was learning how to use vectorization to optimize code runtime.  It took some time and effort to learn how to conceptualize tensors
-        with seven or eight variables and avoid using for-loops.<br>  
-        Another issue I ran into was that my data was unbalanced so there were far more ground truth negatives than positives.  
-        I had to adjust the weights of the loss function and modify the evaluation metric to account for the imbalance. <br>
-        <br> <br>
-        
-        <span class="fieldname">  Skills: </span> 
-        Supervised Natural Language Processing (LSTM), Convolutional Neural Network (CNN), Pytorch, Python, CUDA and GPU computing, Vectorized computation, remote computing on a Linux cluster, 
-        Multi-layer perceptron, vim, functional programming, modifying and working with someone else's code, surveying machine vision literature, presenting research,
-        planning, organizing, and executing a research project. 
-        <br> <br>
-        
-        <span class="fieldname">  Code: </span> <a class="btn" href="https://github.com/byahn2/LCGN"> Visual Grounding GitHub </a>
-        
-      </p>
+      <div class="photo">
+        <img src="plant.jpg" alt="vision" class="picture" style='height: 100%; width: 100%; object-fit: contain'>
+      </div>
+      <div class="description">
+        <p>
+          <span class="fieldname">  Description: </span> 
+          In Summer of 2020, I did a research fellowship with the Xu Lab at University of Rochester.  
+          I designed and implemented a machine vision pipeline for locating multiple objects in an image described by an input sentence.
+          The input is an image and a sentence describing one or more objects in the image.
+          The output is a set of bounding boxes around the target objects.
+          Visual grounding has been done for single targets, but not yet for multiple targets.
+          I generated a new synthetic data set with mutliple targets and modified the Language-Conditioned Graph Network (LCGN) by Hu et al 2019 to do visual grounding for multiple insstances instead of just one.
+          I then designed an implemented a new approach that looked at sets of items holistically instead of evaluating each item separately.
+          At the end of the summer, I presented my work to the CS faculty at University of Rochester.
+          <br> <br>
+
+          <span class="fieldname">  Interesting results or findings: </span> 
+          Our initial model had a top accuracy of 0.829, and a bounding box IOU (50% or greater overlap) accuracy of 66% which is competative with state of the art single instance models.
+          Our second model had a top accuracy of 0.378 and a bounding box IOU accuracy of 0.284.  This model has a different training and testing approach, and we feel the low accuracy might be due to the testing approach
+          which uses beam search to find the most probable sets.  
+          <br> <br>
+
+          <span class="fieldname"> Challenges: </span> 
+          The biggest challenge was learning how to use vectorization to optimize code runtime.  It took some time and effort to learn how to conceptualize tensors
+          with seven or eight variables and avoid using for-loops.<br>  
+          Another issue I ran into was that my data was unbalanced so there were far more ground truth negatives than positives.  
+          I had to adjust the weights of the loss function and modify the evaluation metric to account for the imbalance. <br>
+          <br> <br>
+
+          <span class="fieldname">  Skills: </span> 
+          Supervised Natural Language Processing (LSTM), Convolutional Neural Network (CNN), Pytorch, Python, CUDA and GPU computing, Vectorized computation, remote computing on a Linux cluster, 
+          Multi-layer perceptron, vim, functional programming, modifying and working with someone else's code, surveying machine vision literature, presenting research,
+          planning, organizing, and executing a research project. 
+          <br> <br>
+
+          <span class="fieldname">  Code: </span> <a class="btn" href="https://github.com/byahn2/LCGN"> Visual Grounding GitHub </a>
+        </p>
+      </div>
     </section>
     <section id="checkers">
       <h2>
         AI Checkers (2019)
       </h2>
-      <p>
-        <span class="fieldname">  Description: </span> 
-        I created an AI to play Checkers against a human opponent using state space search and the heuristic minimax algorithm.
-        The game is printed in the console where the human player makes a move by typing the start and ending locations of a piece. The new board is printed after each move.
-        The program keeps track of the state of the game including the location of each piece, which player each piece belongs to, which pieces are kings and pawns, and which player's turn it is.
-        The AI checks all possible actions and makes a queue of possible states resulting from these actions.  It checks if the current state is a terminal state and checks the utility of the terminal state.
-        It then uses the heuristic minimax algorithm with a cutoff to determine the move the yields the highest utility. (if draw: utility = 0, if computer wins utility = 1, if human wins, utility = -1)
-        The heuristic involves a weighted difference of the computer's pieces eand the person's pieces.
-        The game runs until someone wins or there is a tie.  I'm not particularly good at checkers, but the AI never loses. <br> <br>
-        
-        <span class="fieldname"> Interesting results or findings: </span> 
-        There weren't necessarily interesting "results" for this project, but it was enjoyable and gratifying.  
-        The only points I lost for this assignment were because I thought checkers had two rows of pawns when it in fact has three. <br> <br>
-        
-        <span class="fieldname">  Challenges: </span> 
-        The most difficult part of this project was checking for all possible actions.  For the assignment, a chip must make the longest possible series of captures available.
-        When searching for possible moves, I had to keep track of the longest series of captures and clear the queue if I found one that was longer.  Checking all the possible moves took
-        required me to very abstractly conceptualize the board and to think through all possible scenarios.<br> <br>
-        
-        <span class="fieldname">  Skills: </span> 
-        Object oriented programming, Heuristic Minimax Algorithm, Learning a new programming language (this was my first project in Python!) <br> <br>
-        
-        <span class="fieldname"> Code: </span> 
-        <a class="btn" href="https://github.com/byahn2/AI_Checkers"> AI Checkers GitHub </a>
-        
-      </p>
-    </section>
-    <section id="mlef">
-      <h2>
-        Summer 2021 Internship: Topic Modeling of Energy Storage Literature
-      </h2>
-      <p>
-        <span class="fieldname"> Description: </span> 
-        This summer, I will be doing a data science internship with the Department of Energy under the Mickey Leland Energy Fellowship.
-        The objective is to create a useful tool for exploring scientific literature on renewable energy storage.
-        I will be working with unsupervised natural language processing algorithms to extract paper topics and group them.
-        Then I will work on building a website for visualizing the results that harness the human visual system to make it easier to see research trends and locate interesting or relevant papers.
-        Ideally, the tool we create can be generalized to other scientific fields.
-        Check back in August for more updates, or look at the project website below! <br> <br>       
-     
-        <span class="fieldname"> Project Website: </span> 
-        <a class="btn" href="https://aspitarl.github.io/projects/1_nlp/"> Topic Modeling of Energy Storage Literature </a>
-        
-      </p>
+      <div class="photo">
+        <img src="plant.jpg" alt="checkers" class="picture" style='height: 100%; width: 100%; object-fit: contain'>
+      </div>
+      <div class="description">
+        <p>
+          <span class="fieldname">  Description: </span> 
+          I created an AI to play Checkers against a human opponent using state space search and the heuristic minimax algorithm.
+          The game is printed in the console where the human player makes a move by typing the start and ending locations of a piece. The new board is printed after each move.
+          The program keeps track of the state of the game including the location of each piece, which player each piece belongs to, which pieces are kings and pawns, and which player's turn it is.
+          The AI checks all possible actions and makes a queue of possible states resulting from these actions.  It checks if the current state is a terminal state and checks the utility of the terminal state.
+          It then uses the heuristic minimax algorithm with a cutoff to determine the move the yields the highest utility. (if draw: utility = 0, if computer wins utility = 1, if human wins, utility = -1)
+          The heuristic involves a weighted difference of the computer's pieces eand the person's pieces.
+          The game runs until someone wins or there is a tie.  I'm not particularly good at checkers, but the AI never loses. <br> <br>
+
+          <span class="fieldname"> Interesting results or findings: </span> 
+          There weren't necessarily interesting "results" for this project, but it was enjoyable and gratifying.  
+          The only points I lost for this assignment were because I thought checkers had two rows of pawns when it in fact has three. <br> <br>
+
+          <span class="fieldname">  Challenges: </span> 
+          The most difficult part of this project was checking for all possible actions.  For the assignment, a chip must make the longest possible series of captures available.
+          When searching for possible moves, I had to keep track of the longest series of captures and clear the queue if I found one that was longer.  Checking all the possible moves took
+          required me to very abstractly conceptualize the board and to think through all possible scenarios.<br> <br>
+
+          <span class="fieldname">  Skills: </span> 
+          Object oriented programming, Heuristic Minimax Algorithm, Learning a new programming language (this was my first project in Python!) <br> <br>
+
+          <span class="fieldname"> Code: </span> 
+          <a class="btn" href="https://github.com/byahn2/AI_Checkers"> AI Checkers GitHub </a>
+
+        </p>
+      </div>
     </section>
   </body>
 </html>
