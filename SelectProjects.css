@@ -73,10 +73,6 @@ header {
 section:before,
 section:after {
   display: table;
-  width: 80%;
-  margin: 1% auto;
-  padding: 1%;
-  border: 5px solid #7AC583;
 }
 
 section:after{
@@ -84,6 +80,13 @@ section:after{
 }
 section {
   clear: both;
+}
+
+section {  
+  width: 80%;
+  margin: 1% auto;
+  padding: 1%;
+  border: 5px solid #7AC583;
 }
 
 .photo {
