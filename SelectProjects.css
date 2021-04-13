@@ -84,7 +84,6 @@ section:after{
 }
 section {
   clear: both;
-  *zoom:1;
 }
 
 .photo {
