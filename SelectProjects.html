@@ -27,7 +27,7 @@
     </section>
         <section id="mlef">
       <h2>
-        Summer 2021 Internship: Topic Modeling of Energy Storage Literature
+        Mickey Leland Energy Fellowship (National Energy Technolgy Lab at the Department of Energy): Topic Modeling of Energy Storage Literature
       </h2>
       <div class="photo">
         <img src="mlef.png" alt="mlef" class="picture" style='height: 100%; width: 100%; object-fit: contain'>
@@ -35,15 +35,40 @@
       <div class="description">
         <p>
           <span class="fieldname"> Description: </span> 
-          This summer, I will be doing a data science internship with the Department of Energy under the Mickey Leland Energy Fellowship.
-          The objective is to create a useful tool for exploring scientific literature on renewable energy storage.
-          I will be working with unsupervised natural language processing algorithms to extract paper topics and group them.
-          Then I will work on building a website for visualizing the results that harness the human visual system to make it easier to see research trends and locate interesting or relevant papers.
-          Ideally, the tool we create can be generalized to other scientific fields.
-          Check back in August for more updates, or look at the project website below! <br> <br>       
+          Storing energy from intermittent renewables, such as wind and solar, is one of the most pressing challenges we face for enabling a sustainable civilization. 
+          To efficiently allocate resources, researchers and administrators need a high level understanding of the field of energy-storage.
+          During my summer with the Department of Energy, I used natural language processing techniques to extract insights from tens of thousands of scientific abstracts
+          relating to energy-storage, and I created interactive visualizations for exploring my results.
+          For my first visualization, I used LDA to do topic modeling of the energy storage literature and created an interactive graph that allows you to explore topics and their intersections.
+          For the second visualization, I used Word2Vec to create word vectors from prevelant terms in the data.  
+          I then used tSNE to project these vectors to a 2D plane for interactive visualization.  This tool also allows users to do vector math with the word vectors (more info on the website).
+          <br><br>
+
+          <span class="fieldname"> Interesting results or findings: </span>  
+          We found that the model generated topics that were sensible and specific, and that the community detection made groupings that were interpretable and interesting. 
+          Some topics were technology-focused such as topic 49 which is centered around electric vehicles. 
+          Other concepts were more abstract such as topic 23 which had more to do with grid optimization and energy management.
+          The connections between topics were also sensible.  The connection between topics 49 and 23 for instance involves vehicle to grid and grid to vehicle research.
+          The Word2Vec visualization was a little bit less intuitive, but the similar words all seemed very reasonable.  
+          For example, the closest words to "solar" are "sun, photovolta, sunlight, parabol_trough, pvt, csp, plant, flat_plate, geotherm, and panel".
+          The vector math took some time to build intuition for, but also produced meaningful results.
+          For instance, COST - EFFICI + CYCL = LONG_TERM which makes sense because the efficiency of a battery is to the cost as the cyclability is to the lifetime.
+          More specific results can be found on the website.<br> <br>
+
+          <span class="fieldname"> Challenges: </span> 
+          The biggest challenge of this project was familiarizing myself with the number of different libraries and tools involved.
+          I had previously never worked with Gensim, Bokeh, or Javascript, so quickly familiarizing myself with these tools enough to complete this project
+          in ten weeks was a large and sometimes very frusterating task.  Additionally, the data cleaning process is imperfect.  Not all punctuation was removed,
+          and there are still some non-English papers.<br><br>
+          
+          <span class="fieldname">  Skills: </span> 
+          Latent Dirichlet Allocation (LDA), Word2Vec, Louvain Community Detection, tSNE, Python, Bokeh, Javascript, html, css, Data Visualization, Visual Studios, GitHub <br> <br>
+
+          <span class="fieldname">  Code: </span> 
+          <a class="btn" href="https://github.com/MLEF-Energy-Storage"> Energy Storage GitHub </a> <br><br>
 
           <span class="fieldname"> Project Website: </span> 
-          <a class="btn" href="https://mlef-energy-storage.github.io/"> Topic Modeling of Energy Storage Literature </a>
+          <a class="btn" href="https://mlef-energy-storage.github.io/"> Energy Storage Website (serves as writeup as well) </a>
 
         </p>
       </div>
